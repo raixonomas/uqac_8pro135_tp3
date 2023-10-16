@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:GroupBox name="GroupBox" style="top: auto; align-self: auto;">
+        <ui:Button text="Retour" display-tooltip-when-elided="true" name="btnBack" style="font-size: 20px; color: rgb(255, 255, 255); -unity-font-style: bold; width: 163px; margin-left: 15px; margin-right: 2px; margin-top: 15px; background-color: rgba(188, 188, 188, 0); border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); background-image: url(&apos;project://database/Assets/Images/MainMenu/Btn_V11.png?fileID=2800000&amp;guid=3f63f7356078c6442aed8aa9d5945a9e&amp;type=3#Btn_V11&apos;);" />
+        <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); margin-left: 150px; margin-right: 150px; margin-top: 50px;">
+            <ui:DropdownField label="Résolution" index="-1" choices="System.Collections.Generic.List`1[System.String]" name="dropResolution" style="font-size: 20px; -unity-font-style: bold; color: rgb(255, 255, 255);" />
+            <ui:Toggle label="Plein écran" name="togFullScreen" style="font-size: 20px; color: rgb(255, 255, 255); -unity-font-style: bold; margin-top: 20px;" />
+            <ui:DropdownField label="Qualité" index="-1" choices="System.Collections.Generic.List`1[System.String]" name="dropQuality" style="font-size: 20px; color: rgb(255, 255, 255); -unity-font-style: bold; margin-top: 20px;" />
+            <ui:SliderInt label="Volume" value="100" high-value="100" name="sliderVolume" direction="Horizontal" style="-unity-font-style: bold; font-size: 20px; color: rgb(255, 255, 255); margin-top: 20px; width: auto; height: auto;" />
+        </ui:VisualElement>
+    </ui:GroupBox>
+</ui:UXML>
