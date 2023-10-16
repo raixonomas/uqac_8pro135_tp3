@@ -31,7 +31,7 @@ public class ButtonBehavior : MonoBehaviour
         
     }
 
-    private void btnPlay_Click()
+    public void btnPlay_Click()
     {
         SceneManager.LoadScene("Level_1");
     }

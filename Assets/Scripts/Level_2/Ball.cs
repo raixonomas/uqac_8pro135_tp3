@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Ball : MonoBehaviour
 {
-    int numberOfBounce = 0;
+    public int numberOfBounce { get; set; } = 0;
 
     AudioSource AudioSource;
     // Start is called before the first frame update
